@@ -4,7 +4,7 @@
         <!-- Brand -->
         <div class="sidenav-header d-flex align-items-center">
             <a class="navbar-brand p-1" href="/">
-                <img src="{{ template('assets/img/dashboard.png') }}" class="navbar-brand-img" alt="...">
+                <img src="{{ argon('assets/img/dashboard.png') }}" class="navbar-brand-img" alt="...">
             </a>
             <div class="ml-auto">
                 <!-- Sidenav toggler -->

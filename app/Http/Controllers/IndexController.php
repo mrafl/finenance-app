@@ -8,5 +8,8 @@ class IndexController extends Controller
 {
     public function index()
     {
+        return view('landing_page.index', [
+            "title" => "Sportsters | Index"
+        ]);
     }
 }
